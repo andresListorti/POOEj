@@ -21,14 +21,14 @@ public class Libro {
     }
 
     public void cargarLibro() {
-        //
+        // Method para cargar en un nuevo libro, todos los atributos
         System.out.println("Ingrese el ISBN: ");
         ISBN = leer.next();
         System.out.println("Ingrese el titulo: ");
         titulo = leer.next();
         System.out.println("Ingrese el autor: ");
         autor = leer.next();
-        System.out.println("Ingrese el numero de paginas: ");
+        System.out.println("Ingrese el numero de paginas(integer): ");
         paginas = leer.nextInt();
     }
 
